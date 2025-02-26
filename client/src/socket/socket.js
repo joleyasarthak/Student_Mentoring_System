@@ -1,7 +1,7 @@
 import io from "socket.io-client";
 import React from "react";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = process.env.BACKEND_URI;
 
 // var socket;
 
